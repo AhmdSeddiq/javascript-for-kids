@@ -15,6 +15,7 @@ while (strikes < 3 && secret.indexOf("_") >= 0) {
 
     strikes++;
     alert("Bad guess!");
+       
 
   } else {
 
@@ -36,3 +37,4 @@ if (strikes === 3) {
   alert("Congratulations on your win!");
 }
 alert("The secret word was " + word);
+ 

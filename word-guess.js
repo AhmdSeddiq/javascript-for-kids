@@ -1,10 +1,11 @@
 // Guess the word one letter at a time.
 // Each player is only allowed to guess
 // wrong three times.
-
+function show_alert() {
+            
 // Prompt Player 1 to enter a word to guess and store
 // as a variable.
-var word = prompt("Player 1, Enter your secret word.");
+var word = prompt("Step 1:"+"\n\n\n"+"What's your secret word..?" );
 
 // Create another array to store good guesses
 var secret = [];
@@ -23,7 +24,7 @@ while (strikes < 3 && secret.indexOf("_") >= 0) {
 
   // Prompt Player 2 to guess a letter and store as
   // a variable.
-  var letter = prompt(secret.join(" ") + "\n\n" + "Player 2, Guess a letter.");
+  var letter = prompt(secret.join(" ") + "\n\n" + "Step 2: , Guess a letter.");
 
   // If the letter does not exist in the word,
   // add it to the bad guesses.
@@ -54,3 +55,7 @@ if (strikes === 3) {
   alert("Congratulations on your win!");
 }
 alert("The secret word was " + word);
+
+    
+    
+            }
