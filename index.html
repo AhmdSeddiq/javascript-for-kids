@@ -2,42 +2,35 @@
 <html>
   <head>
     <title>JavaScript for Kids</title>
-      <link rel="stylesheet" href="cssFile.css">
-  </head>
+      
+      <link rel="stylesheet" type="text/css" href="style.css" />
 
-<body>
-    
+  </head>
+  <body>
+      
+      <center>
+      
+          <div id="myDiv" >
+              
+              <div >
+   
+                  <h5 id="result">Insert your secret word</h5>
+                  
      
-<!-- Start my main Div -->
-<div id="main">
-        
- 
-    <div id="Big">
-        <div id="Title">
-         <h1 id="h1"> <span>WELCOME</span>in Game </h1>
-     </div>
-    
-        <form id="Big2"  >
-         <div id="text">
-             <h3 id="h3">    
-                 You must insert any word<br>
-                 and let another one guessing it
-             </h3>
-         </div>
-         <div id="button">
-        
-        <form >
-            <input id="Alert" type="button" 
-                   onclick="show_alert()" 
-                   value="StartGame" />
-            <script src="word-guess.js"></script>
-        </form>
-    </div>
-     </form>
-    </div> 
+                  <div id="m"> 
+                     
+                      <input id="word" type="text"style="margin-
+                                                         bottom: 10px;"><br>
+                      
+                      <a href="#" id="linkbtn"
+                         onclick="startgame()">Start..</a>
+                  </div>
+                  <br><br>
+                  <div id="mainbad"></div>
+  </div>
 </div>
-<!-- End my main Div -->
-    
-     
-</body>
+      </center>
+          <script src="game-steps/final.js"></script>
+
+  </body>
 </html>

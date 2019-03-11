@@ -18,7 +18,6 @@ while (strikes < 3 && secret.indexOf("_") >= 0) {
 
     strikes++;
     alert("Bad guess!");
-      
 
   } else {
 
